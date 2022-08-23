@@ -1,0 +1,13 @@
+/* Specific styles for webpage publications.html */
+
+/* Scale and vertically align link symbol*/
+.link_symbol{
+    vertical-align: top;
+    height: 23px;
+}
+
+/* Use special style for name of website author */
+.highlight_name {
+    font-weight: bolder;
+    color: rgb(47,85,151);
+}

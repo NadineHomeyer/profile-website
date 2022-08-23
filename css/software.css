@@ -1,0 +1,70 @@
+/* Specific styles for webpage software.html */
+
+/* Specific styling of first paragraph on page */
+main > p:first-of-type {
+    font-size: 16px;
+    border: 0px;
+    font-weight: lighter;
+}
+
+/* Color highlighting of name */
+#name_highlighting {
+    color:rgb(47,85,151);
+}
+
+/* Increase margin before section on this page */
+section {
+    margin-top: 35px;
+}
+
+/* Specific styling of additional information part of h2 header */
+h2 span {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+/* Specific styling of links webpages with information about software packages */
+a {
+    text-decoration: none;
+    color:rgb(143,170,220);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Styling of 'Functionality' header, paragraphs and list*/
+section h3:nth-of-type(1) {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+section ul:nth-of-type(1){
+    margin-bottom: 0px;
+}
+section p {
+    margin: 4px 0px;
+}
+
+/* Styling of literature header and list */
+section h3:nth-of-type(2) {
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+section ul:nth-of-type(2) {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* Styling of symbol indicating external links for references */
+.small_link_symbol {
+    vertical-align: middle;
+    height: 15px;
+}
+
+/* Specific styling of special subsection of free energy calculation types */
+#subheader_styling {
+    margin-bottom: 2px;
+    font-size: 13px;
+}
+
+#sublist_styling{
+    font-size: 14px;
+}

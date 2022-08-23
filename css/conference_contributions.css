@@ -1,0 +1,42 @@
+/* Specific styles for webpage conference_contributions.html */
+
+/* Styling of table */
+table {
+    margin-top: 30px;
+    font-size: 11px;
+    border-collapse: collapse;
+    background-color: rgb(234,234,234);
+    border: 3px rgb(143,170,220) solid;
+}
+
+td,th {
+    padding: 10px;
+    text-align: left;
+}
+
+td:first-of-type {
+    color: rgb(89,89,89);
+    font-weight: bold;
+}
+
+th {
+    border-bottom: 2px rgb(143,170,220) solid;
+}
+
+tr {
+    vertical-align: top;
+}
+
+tr:nth-of-type(even){
+    background-color: white;
+}
+
+/* Fix width of title column */
+td:first-of-type,th:first-of-type {
+    width: 480px;
+}
+
+/* Fix width of date column */
+td:nth-of-type(4),th:nth-of-type(4) {
+    width: 120px;
+}

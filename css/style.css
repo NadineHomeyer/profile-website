@@ -1,0 +1,96 @@
+/* General styling */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+/* Generally apply box sizing
+according to border-box functionality */
+* {
+    box-sizing: border-box;
+}
+
+/* Styling of body of webpage */
+body {
+    margin: 0px;
+    background-color: rgb(233,236,251);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling of navigation */
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(143,170,220);
+    border-bottom: 5px rgb(47,85,151) solid;
+}
+
+/* Style link / clickable area */
+header nav ul li a {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/* Align link with e-mail symbol within clickable area */
+header nav ul li a:last-of-type {
+    display: flex;
+}
+
+/* Color current item of navigation differently
+in order to indicate the current location. */ 
+#current_nav_item {
+    color: rgb(47,85,151);
+}
+
+/* Scale image */
+#email_symbol {
+    height: 25px;
+}
+
+/* Ensure that text does not directly
+start at the browser window frame */
+main {
+    margin: 25px;
+}
+
+/* Styling of headlines */
+h1 {
+    font-weight: bolder;
+    color: rgb(47,85,151);
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px rgb(47,85,151) solid;
+    margin-bottom: 10px;
+}
+
+/* Styling of lists */
+ul {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 0px 20px;
+}
+
+ol {
+    padding: 0px 20px;
+}
+
+h2 ul li {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+ol li {
+    padding: 10px;
+}
+
+/* Styling of page footer */
+footer {
+    background-color: rgb(47,85,151);
+    color: white;
+    font-size: 9px;
+}
