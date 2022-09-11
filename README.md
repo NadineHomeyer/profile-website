@@ -5,6 +5,4 @@ Websites showing my scientific profile.
 - Publications and conference contributions
 - Developed scientific software
 
-Tools stack: HTML, CSS
-
 Link: https://life-science-it.online/scientific-profile
